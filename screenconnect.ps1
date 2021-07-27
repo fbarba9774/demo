@@ -1,6 +1,6 @@
-$url = 'https://p1data-my.sharepoint.com/:u:/g/personal/chrish_premier-one_com/EX1KYgK7S79DnjSNdWeZlQIBRWxHKn9L0IXI_n554-ABiQ?e=Wxcjag&download=1'
+$url = 'https://p1data-my.sharepoint.com/:u:/g/personal/chrish_premier-one_com/EQdi9nFoB3RLghK0vFqqEIUBRJhgW-I1qbQb4z4rLdHIGA?e=UekwZl'
 
-$filename = "SCAgent-CAFF.exe"
+$filename = "SCAgent.exe"
 $outpath = "C:\Windows\Temp"
 
 wget $url -outfile "$outpath\$filename" | Out-Null
